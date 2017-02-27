@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center">Twitch Check</h1>
+            <h4 class="text-center">Please enjoy the twitch selector! Choose your favorite stream and find out the information without having to visit the twitch site! Please rate the website if you enjoyed, thanks!</h4>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-xs-4 text-center">
+                <select id="selectBox" class="form-control">
+                    <option value="ESL_SC2">ESL_SC2</option>
+                    <option value="OgamingSC2">OgamingSC2</option>
+                    <option value="cretetion">cretetion</option>
+                    <option value="freecodecamp">freecodecamp</option>
+                    <option value="storbeck">storbeck</option>
+                    <option value="habathcx">habathcx</option>
+                    <option value="RobotCaleb">RobotCaleb</option>
+                    <option value="noobs2ninjas">noobs2ninjas</option>
+                    <option value="brunofin">brunofin</option>
+                </select>
+                <input type="text" id="inputBox" placeholder="Check any twitch you'd like here..." class="form-control">
+                <button class='btn btn-primary' id="submit">submit</button>
+            </div>
+            <div class="col-xs-5 col-xs-offset-3 text-center">
+                <h1 id="name" class=""></h1>
+                <div id="information"></div>
+                
+            </div>
+        </div>
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

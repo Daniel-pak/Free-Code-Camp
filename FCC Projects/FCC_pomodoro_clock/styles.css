@@ -1,0 +1,25 @@
+#start {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%
+}
+
+#start { 
+    font-size: 3em;
+    
+}
+
+p, h1{ 
+    font-size: 2em;
+    color:azure;
+}
+
+/*
+body { 
+    background: url("otycvjmqatm-jim-digritz.jpg") no-repeat center center fixed;
+    background-size: cover;
+}*/
+
+body { 
+    background-color: black;
+}

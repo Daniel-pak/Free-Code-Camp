@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row text-center">
+            <h1>Pomodoro Clock!</h1>
+            <br>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-3">
+                <div class="row">
+                    <div class="col-xs-6 text-center">
+                        <p>Minutes</p>
+                        <button id="plus_minute" class="btn btn-success">+</button>
+                        <button id="minus_minute" class="btn btn-danger">-</button>
+                    </div>
+                    <div class="col-xs-6 text-center">
+                        <p>Break Minutes</p>
+                        <button id="plus_break" class="btn btn-success">+</button>
+                        <button id="minus_break" class="btn btn-danger">-</button>
+                    </div>
+
+                </div>
+                <div class="row text-center">
+                    <button id="start">
+                        <h3 id="timer"></h3>
+                        <h4 id='breaker'></h4>
+                    </button>
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <audio src=""></audio>
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

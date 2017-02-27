@@ -1,0 +1,17 @@
+body { 
+    background-color: black;
+    color: white;
+}
+
+p { 
+    display: inline-block;
+}
+
+h3 { 
+    margin-top: -10px !important;
+}
+
+* { 
+    font-family: 'Pangolin', cursive;
+}
+

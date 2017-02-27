@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WIKIPEDIA SEARCH</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+   <div class="row">
+       <div class="col-xs-12 text-center">
+           <h1>Daniel Pak's Wikipedia Serch - Enjoy!</h1>
+       </div>
+   </div>
+   <div class="row">
+       <div class='col-xs-6 col-xs-offset-3 text-center'>
+           <form action="" class=''>
+               <input type="text" placeholder="Search here..." class='form-control' id="search_bar">
+               <button class="btn btn-primary text-center" type="button" id="submit">Submit</button>
+               <button class='btn btn-warning' type='button' id='random'>Random Webpage</button>
+           </form>
+           <div id="text_append"></div>
+           <div id="extra_info"></div>
+       </div>
+   </div>
+   
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script type="text/javascript" src="http://en.wikipedia.org/w/api.php?action=opensearch&search=api&callback=logResults&limit=10&namespace=0&format=json"></script>
+</body>
+
+</html>
